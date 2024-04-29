@@ -3,9 +3,7 @@
 
 ## AIM:
 To design a web application for a standard calculator with minimum five operations.
-
 ## DESIGN STEPS:
-
 ### Step 1:
 Clone the github repository and create Django admin interface.
 
@@ -33,16 +31,15 @@ Publish the website in the given URL.
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Calculator</title>
- <link rel="stylesheet" href="calc.css">
+ <link rel="stylesheet" href="them.css">
  </head>
- <body style= "background-image: url('Asyvdyvd.jpg')" align="center">
+ <body style= "background-image: url('jpn1.jpg')" align="center">
     
     <div class="card">
         
-
       <div class="calculator">
         <h3 class="card-title" >Arithmetic Calculator</h3>
-        <h4>Developed by : Ashwin Akash M(212223230024)</h4>
+        <h4>Developed by : Prajin S(212223230151)</h4>
         
         <form>
           <div class="display">
@@ -143,7 +140,7 @@ body{
     box-shadow: -8px -8px 15px rgb(0, 0, 0),5px 5px 15px rgb(0, 0, 0);
     background: transparent;
     font-size: 38px;
-    color: whitesmoke;
+    color: #ff0073;
     cursor: pointer;
     margin: 13px;
   }
@@ -163,7 +160,7 @@ body{
     width: 145px;
   }
   form input.operator{
-    color: whitesmoke;
+    color:#ff0073;
   }
 ```
 ### 3-code.js
@@ -172,7 +169,6 @@ const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
-
 const calculate = (btnValue) => {
   display.focus();
   if (btnValue === "=" && output !== "") {
@@ -187,7 +183,6 @@ const calculate = (btnValue) => {
   }
   display.value = output;
 };
-
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
@@ -195,8 +190,8 @@ buttons.forEach((button) => {
 
 
 ## OUTPUT:
-![Screenshot 2024-04-29 131635](https://github.com/Prajin19/Calc/assets/144979377/53135740-4971-43d3-a600-e645a5482f3a)
-![Uploading Screenshot 2024-04-29 131657.png…]()
+![alt text](s1.png) 
+![alt text](s2.png)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
